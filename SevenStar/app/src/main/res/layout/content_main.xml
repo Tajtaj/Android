@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="false"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:weightSum="1"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <ImageView android:src="@drawable/logo_star"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Seven Star Shop"
+            android:id="@+id/textView"
+            android:textColor="#333333"
+            android:layout_weight="0.27"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/loginPassword"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:hint="Password"
+            android:background="@drawable/rounded_edittext"
+            android:textColor="#1d1b1b"
+            android:typeface="monospace"
+            android:layout_weight="0.16"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="Login"
+            android:id="@+id/loginButton"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.95"
+            android:typeface="monospace"
+            android:background="@drawable/rounded_submit"
+            android:enabled="true"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+</ScrollView>

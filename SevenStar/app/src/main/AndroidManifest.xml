@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tajdarkhan.sevenstart">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <!-- To make an activity as an index activity -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- End of index activity -->
+
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="AndroidSignup">
+        </activity>
+        <activity
+        android:name=".Create"
+        android:label="\t\t\t\t\t Create"
+            android:noHistory="true">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Home"/>
+
+        </activity>
+        <activity
+            android:name=".Delete"
+            android:label="\t\t\t\t\t Delete"
+            android:noHistory="true">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home"/>
+        </activity>
+        <activity
+            android:name=".Update"
+            android:label="\t\t\t\t\t Update"
+            android:noHistory="true">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home"/>
+        </activity>
+        <activity
+            android:name=".Read"
+            android:label="\t\t\t All Records"
+            android:noHistory="true">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home"/>
+        </activity>
+        <activity
+            android:name=".CustomerUpdate"
+            android:label="\t\t\t Update Record"
+            android:noHistory="true">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Update"/>
+        </activity>
+
+
+    </application>
+
+</manifest>

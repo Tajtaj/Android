@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/home"
+    >
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="140dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Add Records"
+            android:id="@+id/add_btn"
+            android:clickable="true"
+            android:onClick="onCreateBtnClick"
+            android:background="#22376e"
+            android:textColor="#ffffff"
+            android:layout_marginRight="20dp"
+            android:padding="10dp" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Update Records"
+            android:id="@+id/update_btn"
+            android:clickable="true"
+            android:onClick="onUpdateBtnClick"
+            android:background="#22376e"
+            android:textColor="#ffffff"
+            android:padding="10dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Delete All Records"
+            android:id="@+id/del_btn"
+            android:clickable="true"
+            android:onClick="onDeleteBtnClick"
+            android:background="#22376e"
+            android:textColor="#ffffff"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="100dp"
+            android:text="All Records"
+            android:id="@+id/read_btn"
+            android:clickable="true"
+            android:onClick="onReadBtnClick"
+            android:background="#22376e"
+            android:textColor="#ffffff"
+            android:padding="10dp" />
+
+    </TableRow>
+
+</LinearLayout>
