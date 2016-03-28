@@ -1,4 +1,5 @@
 # Android
+<<<<<<< HEAD
 This is the collection of Android projects implemented in AndroidStudio.
 <hr>
 # ComputerVision
@@ -7,6 +8,9 @@ This is the collection of Android projects implemented in AndroidStudio.
 
 
 <hr>
+=======
+This is simple CRUD operations in Android with SQLite.
+>>>>>>> origin/master
 
 # SevenStar
 <p>SevenStar is a project which simply performs CRUD operations in Android with SQLite.</p>
