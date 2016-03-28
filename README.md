@@ -1,5 +1,4 @@
 # Android
-<<<<<<< HEAD
 This is the collection of Android projects implemented in AndroidStudio.
 <hr>
 # ComputerVision
