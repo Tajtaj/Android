@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/noimage"
+        android:layout_gravity="center"
+        android:id="@+id/profilePic"
+
+        />
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="Image upload"
+        android:src="@drawable/camera"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:id="@+id/takePhoto"
+        android:clickable="true"
+        android:onClick="onTakingPhoto"
+        android:layout_weight="0.09" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/createSubmit"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:typeface="monospace"
+        android:background="#dddddd"
+        android:enabled="true"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:onClick="addPicture" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultCode"
+        android:layout_gravity="center"/>
+        <!--android:visibility="gone"-->
+
+
+</LinearLayout>

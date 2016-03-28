@@ -1,6 +1,15 @@
 # Android
-Dedicated for Android code.
+This is the collection of Android projects implemented in AndroidStudio.
+<hr>
+# ComputerVision
+<p>ComputerVision is a simple Tesseract OCR example implemented with Gradle.</p>
 
+
+
+<hr>
+
+# SevenStar
+<p>SevenStar is a project which simply performs CRUD operations in Android with SQLite.</p>
 ## Login activity
 
 <p> The password for login activity is <code>admin</code></p>
