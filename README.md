@@ -1,5 +1,5 @@
 # Android
-Dedicated for Android code.
+This is simple CRUD operations in Android with SQLite.
 
 ## Login activity
 
